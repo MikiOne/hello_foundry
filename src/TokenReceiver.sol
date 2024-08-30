@@ -7,7 +7,8 @@ contract TokenReceiver {
 
     function receiveTokens(IERC20 token, uint256 amount) external {
         // 调用ERC20合约的transfer方法
-        require(token.transfer(address(this), amount), "Transfer failed");
+        // require(token.transfer(address(this), amount), "Transfer failed");
+        require(token.transferFrom(msg.sender, address(this), amount), "Transfer failed");
 
         // 触发TokensReceived事件
         emit TokensReceived(msg.sender, amount);
