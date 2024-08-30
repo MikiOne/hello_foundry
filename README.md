@@ -64,3 +64,10 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+### 安装Openzeppelin的合约
+
+```shell
+forge install Openzeppelin/openzeppelin-contracts
+
+```
