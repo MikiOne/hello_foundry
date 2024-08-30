@@ -1,31 +1,5 @@
 // SPDX-License-Identifier: MIT
 
-// pragma solidity ^0.8.24;
-
-// import {Test, console, console2} from "forge-std/Test.sol";
-// import {IERC20} from "../src/IERC20.sol";
-// import {MyERC20} from "../src/MyERC20.sol";
-// import {TokenReceiver} from "../src/TokenReceiver.sol";
-
-
-// contract TokenReceiverTest is Test {
-//     IERC20 public erc20;
-//     TokenReceiver public tokenReceiver;
-
-//     function setUp() public {
-//         erc20 = new MyERC20("MyERC20", "MyERC20", 18);
-        
-//         tokenReceiver = new TokenReceiver();
-//     }
-
-//     function test_receiveTokens() public {
-//         tokenReceiver.receiveTokens(erc20, 10);
-
-//         uint256 balance = tokenReceiver.getBalance();
-//         console2.log("balance= %d", balance);
-//     }
-// }
-
 pragma solidity ^0.8.24;
 
 import {Test, console2} from "forge-std/Test.sol";
