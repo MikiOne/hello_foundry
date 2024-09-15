@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.24;
 
+// forgefmt: disable-next-line
 import {Script, console} from "forge-std/Script.sol";
 import {Counter} from "../src/Counter.sol";
 

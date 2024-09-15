@@ -70,4 +70,6 @@ $ cast --help
 ```shell
 forge install Openzeppelin/openzeppelin-contracts
 
+forge install Openzeppelin/openzeppelin-contracts --no-commit
+
 ```
